@@ -2,20 +2,6 @@
 
 A Python program that downloads audio from YouTube videos and converts them to MP3 format using `yt-dlp`.
 
-## Features
-
-- ✅ Download audio from YouTube videos
-- ✅ **Download entire YouTube playlists**
-- ✅ Convert to high-quality MP3 format (192kbps)
-- ✅ URL validation for YouTube links
-- ✅ Command-line interface
-- ✅ Custom output filenames and directories
-- ✅ Video information display
-- ✅ **Batch processing with progress tracking**
-- ✅ **Configurable delays between downloads**
-- ✅ **Playlist organization in subdirectories**
-- ✅ Error handling and user-friendly messages
-
 ## Prerequisites
 
 You need to have **FFmpeg** installed on your system for audio conversion:
@@ -219,7 +205,7 @@ except Exception as e:
 - Example structure:
   ```
   downloads/
-  └── My_Awesome_Playlist/
+  └── My_Playlist/
       ├── Song_1.mp3
       ├── Song_2.mp3
       └── Song_3.mp3
